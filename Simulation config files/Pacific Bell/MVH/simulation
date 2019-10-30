@@ -1,0 +1,22 @@
+{
+"threads":30,
+"networkType":0,
+"rmlsaType":1,
+"requests":100000,
+"loadPoints":5,
+"replications":10,
+"grooming":"mgfccf",
+"integratedRmlsa":"completesharing",
+"modulationSelection":"modulationbyqot",
+"activeMetrics":
+	{"BlockingProbability":true,
+	 "BandwidthBlockingProbability":true,
+	 "SpectrumUtilization":true,
+	 "SpectrumSizeStatistics":true,
+	 "ExternalFragmentation":true,
+	 "RelativeFragmentation":false,
+	 "TransmittersReceiversRegeneratorsUtilization":true,
+	 "EnergyConsumption":true,
+	 "ModulationUtilization":true,
+	 "ConsumedEnergy":true}
+}
